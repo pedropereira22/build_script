@@ -17,7 +17,7 @@ rm -rf hardware/xiaomi
 repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
 
 # cloning device local_manifests 
-git clone https://github.com/pedropereira22/local_manifests -b fifteen .repo/local_manifests
+git clone https://github.com/pedropereira22/local_manifests .repo/local_manifests
 
 # Sync the repo with force to ensure a clean sync
 /opt/crave/resync.sh
