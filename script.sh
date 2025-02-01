@@ -14,7 +14,7 @@ rm -rf vendor/xiaomi/zsm8450-common
 rm -rf hardware/xiaomi
 
 # Initialize ROM manifest
-repo init -u https://github.com/RisingTechOSS/android -b fifteen --git-lfs
+repo init -u https://github.com/Project-Mist-OS/manifest -b 15 --git-lfs
 
 # cloning device local_manifests 
 git clone https://github.com/pedropereira22/local_manifests .repo/local_manifests
@@ -26,9 +26,9 @@ git clone https://github.com/pedropereira22/local_manifests .repo/local_manifest
 . build/envsetup.sh
 
 # Choose the target device
-riseup ziyi userdebug
+mistify ziyi userdebug
 
 # Build the ROM (use mka bacon for a full build)
 # signed build
 gk -f
-rise sb
+mist sb
