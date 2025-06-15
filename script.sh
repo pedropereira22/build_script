@@ -14,7 +14,7 @@ rm -rf vendor/xiaomi/zsm8450-common
 rm -rf hardware/xiaomi
 
 # Initialize ROM manifest
-repo init -u https://github.com/Project-Mist-OS/manifest -b 15 --git-lfs
+#repo init -u https://github.com/Project-Mist-OS/manifest -b 15 --git-lfs
 
 # cloning device local_manifests 
 git clone https://github.com/pedropereira22/local_manifests .repo/local_manifests
