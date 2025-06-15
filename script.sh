@@ -26,9 +26,11 @@ git clone https://github.com/pedropereira22/local_manifests .repo/local_manifest
 . build/envsetup.sh
 
 # Choose the target device
-mistify ziyi userdebug
+#mistify ziyi userdebug
+riseup ziyi userdebug
 
 # Build the ROM (use mka bacon for a full build)
 # signed build
 gk -f
-mist sb
+# mist sb
+rise sb
